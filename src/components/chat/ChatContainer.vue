@@ -86,7 +86,7 @@ async function scrollToBottom() {
       <div class="flex items-center justify-between">
         <div>
           <h1 class="text-xl font-semibold text-foreground">Analytics Chat</h1>
-          <p class="text-sm text-muted-foreground mt-0.5">Click on any user message to edit and regenerate</p>
+          <p class="text-sm text-muted-foreground mt-0.5">made by Anass</p>
         </div>
         <ThemeSwitcher />
       </div>
