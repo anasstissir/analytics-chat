@@ -33,7 +33,7 @@ async function handleEdit(messageId: string, newValue: string) {
   if (messageIndex === -1) return
 
   const editedMessage = messages.value[messageIndex]
-  if (editedMessage.content?.type === 'text') {
+  if (editedMessage?.content?.type === 'text') {
     editedMessage.content.value = newValue
     editedMessage.timestamp = new Date().toISOString()
   }
